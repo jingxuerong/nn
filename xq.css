@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background: url(c9.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box1{
+    height: 40px;
+    width: 600px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+.box1 li{
+float: left;
+margin-left: 70px;
+display: table-cell;
+vertical-align: middle;
+}
+.box1 ul{
+    list-style: none;
+}
+.box2{
+   width: 800px;
+   height: 100px;
+   margin: 0 auto;
+}
+.box2 legend{
+    text-align: center;
+}
+.box2 p{
+    text-align: center;
+}
+.box3{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#box4{
+    position: fixed;
+    top: 50px;;
+    right: 0;
+}

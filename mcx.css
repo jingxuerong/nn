@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background-image: url(c12.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box1{
+    height: 40px;
+    width: 600px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+.box1 li{
+float: left;
+margin-left: 70px;
+display: table-cell;
+vertical-align: middle;
+}
+.box1 ul{
+    list-style: none;
+}
+.box2{
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+.box3{
+    width: 50%;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+}
+.sg1{
+    width: 100px;
+    height: 100px;
+    background-image: url(31.jpg);
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+.sg2{
+    width: 120px;
+    height: calc(100% - 115px);
+    margin-top: 15px; 
+    float: left;
+} 
+.sg2 p{
+    margin-left: 10px;
+}
+.sg3{
+    position: fixed;
+    top: 40px;
+    left: 575px;
+}
+.con{
+    width: 200px;
+    height: 225px;
+    border-radius: 50px;
+    float: left;
+}
+.sg4{
+    margin-left: 15px;
+    margin-right: 25px;
+    background-image: url(a13.jpg);
+    background-size: 100% 100%;
+}
+.sg5{
+    background-image: url(a11.jpg);
+    background-size: 100% 100%;
+}
+.box4{
+    width: 55%;
+    height: 151px;
+    margin: 0 auto;
+}
+.a1{
+    width: 100px;
+    height: 120px;
+    margin:15px 35px 15px 35px;
+    float: left;
+}
+.box4 video{
+    width: 100px;
+    height: 120px;
+}

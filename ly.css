@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background-image: url(c15.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box1{
+    height: 40px;
+    width: 600px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+.box1 li{
+float: left;
+margin-left: 70px;
+display: table-cell;
+vertical-align: middle;
+}
+.box1 ul{
+    list-style: none;
+}
+.box2{
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+.box3{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.box3 textarea{
+    width: 650px;
+    height: 280px;
+}
